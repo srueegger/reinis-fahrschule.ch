@@ -1,0 +1,8 @@
+/* Variables for the Theme - es ist wichtig, dass diese Datei als erste eingefügt wird */
+@import "variables.scss";
+
+/* Third Party Ressources */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+/* Theme Specific CSS */
+@import "global.scss";
