@@ -1,0 +1,31 @@
+#topHeader {
+	text-align: center;
+	margin-top: 1rem;
+	img {
+		max-width: 300px;
+	}
+}
+
+#siteHeader {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: $primary;
+	z-index: 100;
+}
+
+.marquee {
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px dashed $secondary;
+	padding: .25rem;
+	font-family: $font-family-monospace;
+	.spacer {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}

@@ -17,6 +17,7 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "matchdep": "^2.0.0",
-    "bootstrap": "4.4.1"
+    "bootstrap": "^4.4.1",
+    "jquery.marquee": "^1.5.0"
   }
 }

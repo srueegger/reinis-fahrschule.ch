@@ -17,7 +17,8 @@ module.exports = function( grunt ) {
             },
             basetheme: {
                 src: [
-					'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+                    'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+                    'node_modules/jquery.marquee/jquery.marquee.min.js',
                     'dev-assets/js/_vendor/*.js',
                     'dev-assets/js/src/main.js'
                 ],

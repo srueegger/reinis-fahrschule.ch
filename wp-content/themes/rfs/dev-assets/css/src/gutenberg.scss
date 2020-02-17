@@ -1,0 +1,61 @@
+.wp-block-table {
+	table {
+		@extend .table;
+		@extend .table-bordered;
+		margin-bottom: 0;
+		thead {
+			tr {
+				th {
+					text-align: center;
+				}
+			}
+		}
+	}
+	&.is-style-stripes {
+		table {
+			@extend .table;
+			@extend .table-bordered;
+			@extend .table-striped;
+			margin-bottom: 0;
+			tbody {
+				tr {
+					&:nth-child(odd) {
+						background-color: $secondary;
+						color: $black;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* Gutenberg Theme Farben / Klassen schreiben */
+$gutenbergcolors:	( 'blue', $primary ),
+					( 'yellow', $secondary ),
+					( 'white', $white ),
+					( 'black', $black );
+
+@each $name, $gbcolor in $gutenbergcolors {
+	.has-#{$name}-color {
+		color: $gbcolor;
+	}
+
+	.has-#{$name}-background-color {
+		background-color: $gbcolor;
+	}
+}
+
+.wp-block-image,
+.wp-block-embed,
+.wp-block-gallery {
+	figcaption {
+		font-size: 1rem;
+		font-style: italic;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+.wp-block-cover {
+	height: 300px;
+}

@@ -5,4 +5,8 @@
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 /* Theme Specific CSS */
+@import "typo.scss";
+@import "header.scss";
 @import "global.scss";
+@import "footer.scss";
+@import "gutenberg.scss";
