@@ -1,0 +1,53 @@
+{
+    "key": "group_5e4bad7c5f9c1",
+    "title": "Seitenbild",
+    "fields": [
+        {
+            "key": "field_5e4bad961b867",
+            "label": "Bild der Seite",
+            "name": "page_image",
+            "type": "image",
+            "instructions": "<a href=\"https:\/\/de.wikipedia.org\/wiki\/Bildtafel_der_Strassensignale_in_der_Schweiz_und_in_Liechtenstein_seit_2016\" target=\"_blank\">Hier<\/a> findet man alle Bilder im SVG Format:",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium_large",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            },
+            {
+                "param": "page_type",
+                "operator": "!=",
+                "value": "front_page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1582019827
+}

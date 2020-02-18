@@ -27,3 +27,16 @@
 		}
 	}
 }
+
+#goBack {
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	opacity: 0;
+	-webkit-animation: goback-popup 1s linear 1.5s forwards;
+	        animation: goback-popup 1s linear 1.5s forwards;
+	img {
+		width: 60px;
+		cursor: pointer;
+	}
+}

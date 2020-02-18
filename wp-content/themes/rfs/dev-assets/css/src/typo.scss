@@ -13,4 +13,10 @@ a {
 	&:hover {
 		color: $secondary;
 	}
+	&.no-line {
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }

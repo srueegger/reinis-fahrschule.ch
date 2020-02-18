@@ -1,0 +1,46 @@
+{
+    "key": "group_5e4ba306528c9",
+    "title": "Block: Seitenstruktur",
+    "fields": [
+        {
+            "key": "field_5e4ba319ddf0a",
+            "label": "Wähle die Seiten, die angezeigt werden sollen",
+            "name": "block_seitenstruktur_pages",
+            "type": "post_object",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 1,
+            "return_format": "object",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/seitenstruktur"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1582015316
+}

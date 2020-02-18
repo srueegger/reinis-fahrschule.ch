@@ -13,12 +13,12 @@ define( 'DIST_JS', THEME_URI . '/dist-assets/js' );
 /***************************************
  * Include helpers
  ***************************************/
+require_once 'inc/gutenberg-custom-blocks.php';
 
 /***************************************
  * 		Theme Support
  ***************************************/
 function rfs_theme_setup() {
-	add_theme_support( 'post-thumbnails' );
 	add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 	add_theme_support( 'title-tag' );
 	add_theme_support( 'responsive-embeds' );
@@ -119,3 +119,12 @@ function remove_menus() {
 	remove_menu_page( 'edit.php' );
 }
 add_action( 'admin_menu', 'remove_menus' );
+
+/***************************************
+ * SVG Bild-Upload erlauben
+ ***************************************/
+function rfs_mime_types($mimes) {
+	$mimes['svg'] = 'image/svg+xml';
+	return $mimes;
+}
+add_filter('upload_mimes', 'rfs_mime_types');

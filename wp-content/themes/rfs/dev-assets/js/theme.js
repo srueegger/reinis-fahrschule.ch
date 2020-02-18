@@ -27,7 +27,7 @@ delayBeforeStart:1E3,direction:"left",duplicated:!1,duration:5E3,gap:20,pauseOnC
 	/* Marquee / Lauftext konfigurieren und starten */
 	var mq = $('.marquee').marquee({
 		pauseOnHover: true,
-		startVisible: true,
+		startVisible: false,
 		direction: 'left',
 		duplicated: true,
 		gap: 0,

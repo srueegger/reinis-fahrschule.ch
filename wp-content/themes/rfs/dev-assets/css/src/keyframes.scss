@@ -1,0 +1,118 @@
+@-webkit-keyframes iconimage {
+	0% {
+		-webkit-transform: scale(0) rotate(0);
+		        transform: scale(0) rotate(0);
+	}
+	60% {
+		-webkit-transform: scale(1.3) rotate(490deg);
+		        transform: scale(1.3) rotate(490deg);
+	}
+	80% {
+		-webkit-transform: scale(1.15) rotate(270deg);
+		        transform: scale(1.15) rotate(270deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotate(360deg);
+		        transform: scale(1) rotate(360deg);
+	}
+}
+@keyframes iconimage {
+	0% {
+		-webkit-transform: scale(0) rotate(0);
+		        transform: scale(0) rotate(0);
+	}
+	60% {
+		-webkit-transform: scale(1.3) rotate(490deg);
+		        transform: scale(1.3) rotate(490deg);
+	}
+	80% {
+		-webkit-transform: scale(1.15) rotate(270deg);
+		        transform: scale(1.15) rotate(270deg);
+	}
+	100% {
+		-webkit-transform: scale(1) rotate(360deg);
+		        transform: scale(1) rotate(360deg);
+	}
+}
+
+@-webkit-keyframes glowing {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+@keyframes glowing {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+@-webkit-keyframes rotate-icon {
+	from {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0);
+		        transform: rotate(0);
+	}
+}
+
+@keyframes rotate-icon {
+	from {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(0);
+		        transform: rotate(0);
+	}
+}
+
+@-webkit-keyframes goback-popup {
+	0% {
+		-webkit-transform: scale(0);
+		        transform: scale(0);
+		opacity: 0;
+	}
+	70% {
+		-webkit-transform: scale(1.3);
+		        transform: scale(1.3);
+		opacity: .7;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+		opacity: 1;
+	}
+}
+
+@keyframes goback-popup {
+	0% {
+		-webkit-transform: scale(0);
+		        transform: scale(0);
+		opacity: 0;
+	}
+	70% {
+		-webkit-transform: scale(1.3);
+		        transform: scale(1.3);
+		opacity: .7;
+	}
+	100% {
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+		opacity: 1;
+	}
+}
